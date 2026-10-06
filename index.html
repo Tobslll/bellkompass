@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bellkompass – Hilfe</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1d1d1f; --muted: #6e6e73; --accent: #a84f1c; --card: #f5f5f7; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #000000; --fg: #f5f5f7; --muted: #a1a1a6; --accent: #e38b4f; --card: #1c1c1e; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.5 -apple-system, system-ui, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  h2 { font-size: 19px; margin: 28px 0 8px; color: var(--accent); }
+  details { background: var(--card); border-radius: 12px; padding: 12px 16px; margin: 8px 0; }
+  summary { font-weight: 600; cursor: pointer; }
+  a { color: var(--accent); }
+  .meta { color: var(--muted); font-size: 15px; }
+  .todo { background: #fff3cd; color: #5c4400; padding: 2px 6px; border-radius: 4px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Bellkompass</h1>
+  <p class="meta">Rassen, Gesundheit &amp; Gassi – Hilfe und Kontakt</p>
+
+  <h2>Kontakt</h2>
+  <p>Fragen, Fehler oder Wünsche? Schreib an <a href="mailto:[E-Mail-Adresse]"><span class="todo">[E-Mail-Adresse]</span></a>. Bitte nenne dein iPhone-Modell und die iOS-Version, wenn etwas nicht funktioniert.</p>
+
+  <h2>Häufige Fragen</h2>
+  <details>
+    <summary>Wo sind meine Daten gespeichert?</summary>
+    <p>Nur auf deinem iPhone und, wenn du iCloud nutzt, in deiner privaten iCloud. Es gibt kein Konto und keinen Server des Anbieters. Mehr dazu in der <a href="datenschutz.html">Datenschutzerklärung</a>.</p>
+  </details>
+  <details>
+    <summary>Wie sichere ich meine Daten?</summary>
+    <p>Unter „Wissen“ → „Datensicherung“ tippst du auf „Sicherung erstellen“ und legst die Datei zum Beispiel in der Dateien-App ab. Mit „Sicherung importieren“ holst du sie zurück; bereits vorhandene Hunde werden dabei nicht doppelt angelegt.</p>
+  </details>
+  <details>
+    <summary>Wie teile ich einen Hund mit meiner Familie?</summary>
+    <p>Öffne den Hund unter „Mein Hund“ und tippe auf „Mit Familie teilen“. Die eingeladene Person braucht ebenfalls die App und ein iCloud-Konto. Danach seht ihr beide dieselben Termine, Gassirunden und Tagebucheinträge.</p>
+  </details>
+  <details>
+    <summary>Die Erinnerungen kommen nicht.</summary>
+    <p>Prüfe in den iPhone-Einstellungen unter „Mitteilungen“, ob Mitteilungen für die App erlaubt sind, und ob ein Fokus-Modus sie unterdrückt. Erinnerungen kommen drei Tage vor einem Termin und am Tag selbst um die eingestellte Uhrzeit.</p>
+  </details>
+  <details>
+    <summary>Ersetzt die App den Tierarzt?</summary>
+    <p>Nein. Die Gesundheitsinformationen sind allgemein und ersetzen keine tierärztliche Untersuchung oder Beratung. Im Notfall sofort die Tierarztpraxis oder den tierärztlichen Notdienst anrufen.</p>
+  </details>
+
+  <h2>Rechtliches</h2>
+  <p><a href="datenschutz.html">Datenschutzerklärung</a></p>
+</main>
+</body>
+</html>
